@@ -1,0 +1,19 @@
+{
+    "config": {
+
+    },
+    "autoload": {
+      "files": ["vendor/ez_sql/ez_sql_mysql.php"],
+      "psr-4": {
+            "Models\\": "models/",
+            "Controllers\\": "controllers/"
+        }
+    },
+    "repositories": [
+        {"type": "composer", "url": "https://packagist.phpcomposer.com"},
+        {"packagist": false}
+    ],
+    "require": {
+        "monolog/monolog": "1.22.1"
+    }
+}
